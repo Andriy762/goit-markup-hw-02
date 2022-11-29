@@ -2,6 +2,7 @@
     --color-primary: #212121;
     --color-secondary: #757575;
     --color-header-logo-link: #2196F3;
+    --color-hero-button: #188CE8;
     --color-logo: #000000; 
     --color-third: #2196F3;
     --color-button: #2196F3;
@@ -94,6 +95,8 @@ body {
 }
 .hero-button:hover,
 .hero-button:focus {
+    background-color: var(--color-hero-button);
+    color: var(--color-primary-white);
     outline-color: transparent;
     outline-style: solid;
     box-shadow: 4px;
@@ -252,6 +255,7 @@ body {
 }
 
 .button {
+    background-color: var(--color-bg);
     color: var(--color-primary);
     font-family: 'Roboto','sans-serif';
     cursor: pointer;
@@ -274,10 +278,6 @@ body {
     color: var(--color-primary);
     font-family: 'Roboto', 'sans-serif';
     font-style: normal;
-    font-weight: 700;
-    font-size: 18px;
-    line-height: 2;
-    letter-spacing: 0.06em;
     font-weight: 700;
     font-size: 18px;
     line-height: 2;
